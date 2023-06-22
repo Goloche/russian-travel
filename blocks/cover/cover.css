@@ -1,0 +1,9 @@
+.cover {
+    max-width: 1184px;
+    margin: 0 48px 92px;
+    background-image: url(../../images/cover__background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 740px;
+    background-position: center;
+}
