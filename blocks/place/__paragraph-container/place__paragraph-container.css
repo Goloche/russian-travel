@@ -1,12 +1,12 @@
 .place__paragraph-container {
-    grid-row: 2/4;
-    max-width: 100%;
+  grid-row: 2/4;
+  max-width: 100%;
 }
 
-@media screen and (max-width: 767px) {
-    .place__paragraph-container {
-      grid-row: 4;
-      margin-left: 16px;
-      margin-right: 16px;
-    }
+@media screen and (max-width: 768px) {
+  .place__paragraph-container {
+    grid-row: 4;
+    margin-left: 16px;
+    margin-right: 16px;
   }
+}

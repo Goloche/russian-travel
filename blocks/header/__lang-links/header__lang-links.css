@@ -4,3 +4,10 @@
     display: flex;
     list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+    .header__lang-links {
+        max-width: calc(100% - 150px);
+        margin-bottom: 8px;
+    }
+}
