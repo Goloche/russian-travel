@@ -1,25 +1,12 @@
 .cover__title {
-  text-align: center;
-  color: #FFFFFF;
-  text-decoration: none;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-  margin-top: 0;
-  margin-bottom: 32px;
+  margin: 0 auto 32px;
+  max-width: 560px;
+  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 106%;
-  padding-left: 312px;
-  padding-right: 312px;
-}
-
-@media screen and (max-width: 768px) {
-  .cover__title {
-    font-size: 32px;
-    line-height: 109%;
-    margin-bottom: 16px;
-  }
+  text-align: center;
+  display: flex;
+  position: relative;
+  z-index: 1;
 }
