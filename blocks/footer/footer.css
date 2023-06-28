@@ -6,20 +6,20 @@
   margin-bottom: 24px;
 }
 
-@media screen and (max-width : 1150px) {
+@media screen and (max-width: 1150px) {
   .footer {
     max-width: calc(100% - 96px);
   }
 }
 
-@media screen and (max-width : 950px) {
+@media screen and (max-width: 950px) {
   .footer {
     max-width: calc(100% - 46px);
     margin-top: 102px;
   }
 }
 
-@media screen and (max-width : 750px) {
+@media screen and (max-width: 750px) {
   .footer {
     max-width: calc(100% - 32px);
     flex-direction: column;
