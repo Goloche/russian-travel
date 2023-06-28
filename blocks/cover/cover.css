@@ -1,7 +1,26 @@
 .cover {
   margin: 0 auto;
-  width: calc(100% - 2*48px);
-  display: flex;
-  flex-direction: column;
   margin-bottom: 92px;
+  width: 100%;
+  display: flex;
+  max-width: calc(1280px - 2*48px);
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
 }
