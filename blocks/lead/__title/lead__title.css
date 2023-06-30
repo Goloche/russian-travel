@@ -7,17 +7,13 @@
   text-align: center;
 }
 
-@media screen and (max-width: 768px) {
-  .lead__title {
-    font-size: 54px;
-    line-height: 58px;
-  }
-}
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 750px) {
   .lead__title {
+    box-sizing: border-box;
     font-size: 40px;
     line-height: 44px;
     margin-bottom: 16px;
+    max-width: 288px;
   }
 }
