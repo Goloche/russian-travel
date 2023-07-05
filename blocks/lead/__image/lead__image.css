@@ -1,18 +1,15 @@
 .lead__image {
-  display: block;
-  max-width: 100%;
-  object-fit: cover;
-  margin: 64px 0 0 0;
+  width: 100%;
+  margin: 64px 148px 0 148px;
+  padding-left: 0;
+  max-width: 984px;
+  min-height: 615px;
+  object-fit: contain;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1024px) {
   .lead__image {
-    margin: 56px 0 0 0;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  .lead__image {
-    margin: 40px 0 0 0;
+    max-width: 928px;
+    max-height: 580px;
   }
 }

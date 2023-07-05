@@ -1,5 +1,7 @@
 .place__paragraph-container {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
   grid-row: 2/4;
   max-width: 100%;
 }
