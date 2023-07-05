@@ -8,9 +8,15 @@
   text-align: center;
 }
 
-@media screen and (min-width:1024px) {
+@media screen and (max-width: 1024px) {
   .lead__title {
     padding: 48px auto 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .lead__title {
+    
   }
 }
 

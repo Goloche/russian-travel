@@ -1,12 +1,12 @@
 .place__image {
   grid-row: 2/4;
   width: 100%;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
     grid-row: 4;
-    max-width: 320px;
+    margin: 0;
   }
 }

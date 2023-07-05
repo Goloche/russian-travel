@@ -4,9 +4,10 @@
   grid-template-columns: repeat(4, 284px);
   justify-content: center;
   box-sizing: border-box;
+  object-fit: contain;
   gap: 16px 16px;
   margin: 0;
-  padding: ;
+  padding: 0;
   margin-bottom: 92px;
 }
 
