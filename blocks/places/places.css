@@ -14,9 +14,8 @@
   }
 }
 
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 767px) {
   .places {
-    margin-bottom: 90px;
-    margin: 0 auto;
+    margin: 0;
   }
 }
