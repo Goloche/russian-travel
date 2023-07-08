@@ -7,6 +7,10 @@
   row-gap: 48px;
 }
 
+.place:last-child {
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1024px) {
   .place {
     grid-template-columns: 1fr 1fr;
@@ -22,16 +26,12 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 767px) {
   .place {
     display: flex;
     flex-direction: column;
     margin-bottom: 50px;
     row-gap: 32px;
     width: 100%;
-  }
-
-  .place:last-child {
-    margin-bottom: 0;
   }
 }
