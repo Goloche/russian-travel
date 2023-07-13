@@ -10,7 +10,7 @@
   align-self: start;
 }
 
-@media screen and (max-width: 950px) {
+@media screen and (max-width: 970px) {
   .lead__caption {
     padding: 0;
     margin: 8px auto 0 24px;
